@@ -1,0 +1,25 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+       
+        int age = 17;
+        String name = "Amal";
+         M(age, name);
+         
+     }
+     
+     public static void M(int a, String b){
+      
+      if (a < 18){
+           for(int i = 0; i <= 2; i++){
+         System.out.println("sorry "+ b +" you are still young to get the license");
+       }
+       }
+     
+     else{
+          for(int i = 0; i <= 2; i++){
+         System.out.println("congrats "+ b+" you will get the license");
+     }
+     }
+}
+}
